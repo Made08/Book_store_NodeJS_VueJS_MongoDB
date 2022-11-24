@@ -11,7 +11,7 @@
           align="center"
         >
           <b-card-text>
-            Titulo: {{book_title }} <br/>
+            Tipo de articulo: {{book_title }} <br/>
             Precio: {{book_price}} <br/>
             Usuario: {{user_name}} <br/>
             Saldo Actual: {{user_balance}} <br/>

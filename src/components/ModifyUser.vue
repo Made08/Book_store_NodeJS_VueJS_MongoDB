@@ -2,7 +2,7 @@
   <b-row>
     <b-col cols="12">
       <h2>
-        Facilidad de uso
+        Ayuda
 
       </h2>
       <b-form @submit="onSubmit">
