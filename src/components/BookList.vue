@@ -31,13 +31,13 @@
     data () {
       return {
         fields: {
-          isbn: { label: 'ISBN', sortable: true, 'class': 'text-center' },
-          title: { label: 'Titulo', sortable: true },
-          author: { label: 'Autor', sortable: true },
-          published_year: { label: 'Publicado', sortable: true },
-          piece: { label: 'Pieza'},
-          price: {label: 'Precio'},
-          actions: { label: 'Comprar', 'class': 'text-center' }
+          isbn: { label: 'ID', sortable: true, 'class': 'text-center' },
+          title: { label: 'ACCESORIO', sortable: true },
+          author: { label: 'MARCA', sortable: true },
+          published_year: { label: 'AÑO COLECCION', sortable: true },
+          piece: { label: '# INVENTARIO'},
+          price: {label: 'PRECIOS'},
+          actions: { label: 'COMPRAR', 'class': 'text-center' }
         },
         books: [],
         users: [],
