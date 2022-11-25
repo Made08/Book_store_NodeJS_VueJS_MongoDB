@@ -45,10 +45,10 @@
                       horizontal
                       :label-cols="4"
                       breakpoint="md"
-                      label="Saldo Actual">
+                      label="$ Saldo Actual">
           <b-form-input id="balance" :state="state" v-model.trim="user.balance"></b-form-input>
         </b-form-group>
-        <b-button type="submit" variant="primary">De moda</b-button>
+        <b-button type="submit" variant="primary">Registrar</b-button>
         <b-button type="button" variant="info" @click.stop="back()">Atras</b-button>
       </b-form>
     </b-col>
